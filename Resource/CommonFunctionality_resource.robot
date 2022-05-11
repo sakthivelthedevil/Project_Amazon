@@ -14,3 +14,4 @@ launch browser
     Set Selenium Implicit Wait    30s
     Set Screenshot Directory    ${EXECDIR}${/}screenshot
     Go To    url=${URL}
+    Click Element    //span[text()='Hello, Sign in']
